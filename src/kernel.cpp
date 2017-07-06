@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2013 The PPCoin developers
+// Copyright (c) 2012-2013 The CM_CapitalName developers
 // Copyright (c) 2014 The BlackCoin developers
 // Copyright (c) 2014 The CM_CapitalName developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -222,7 +222,7 @@ static bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t& nStakeModifi
     return true;
 }
 
-// ppcoin kernel protocol
+// CM_LowerName kernel protocol
 // coinstake must meet hash target according to the protocol:
 // kernel (input 0) must meet the formula
 //     hash(nStakeModifier + txPrev.block.nTime + txPrev.offset + txPrev.nTime + txPrev.vout.n + nTime) < bnTarget * nCoinDayWeight
